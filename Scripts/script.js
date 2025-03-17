@@ -1,6 +1,7 @@
 let accordion_btn = document.querySelectorAll(".accordion-btn")
 let closeButtons = document.querySelectorAll(".btn-close")
 let dropdownButtons = document.querySelectorAll(".dropdown-toggle")
+let checkboxButtons = document.querySelectorAll(".checkbox-label")
 let body = document.querySelector("body")
 
 accordion_btn.forEach((btn, i) => {
@@ -32,4 +33,8 @@ dropdownButtons.forEach(btn => {
         }
     })
 });
+
+checkboxButtons.forEach(btn => {
+    btn.innerHTML = btn.innerHTML + '<i class="fa-solid fa-check"></i>'
+})
 
