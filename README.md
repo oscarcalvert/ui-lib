@@ -1,5 +1,5 @@
-# UI-Framework
-A UI framework designed and created by me for the following reasons
+# UI Component Library
+A UI Component Library designed and created by me for the following reasons
 - css practice
 - to use in assignments
 
